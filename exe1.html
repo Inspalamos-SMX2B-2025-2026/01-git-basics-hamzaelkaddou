@@ -8,5 +8,30 @@
   </head>
    <body>
         <h1>Exercici 1</h1>
+   <pre>
+     266  git clone git@github.com:Inspalamos-SMX2B-2025-2026/01-git-basics-hamzaelkaddou.git
+  267  cd 01-git-basics-hamzaelkaddou/
+  268  git branch -r
+  269  git checkout main
+  274  git add exe1.html README.md
+  275  git commit -m "Exe1 fet"
+  276  git push origin main
+  279  git add exe2.html
+  280  git commit -m "Exe2 fet"
+  281  git push origin main
+  285  git add exe1.html exe2.html README.md
+  286  git commit -m "Bootstrap afegit"
+  287  git push origin main
+  288  git checkout -b web
+  289  git push -u origin web
+  290  git checkout main
+  291  git rm exe1.html exe2.html
+  292  git commit -m "Borrat tot menys README.md"
+  293  git push origin main
+  294  git checkout web
+  295  git push -u origin web
+  297  git checkout main
+  298  history | grep git > git.log
+   </pre>
     </body>
 </html>

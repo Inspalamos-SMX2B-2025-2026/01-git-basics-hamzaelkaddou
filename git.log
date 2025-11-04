@@ -1,0 +1,159 @@
+   12  git
+   14  git
+   16  git init
+   18  git config --global user.name "Hamza El Kaddouri"
+   19  git config --global user.email "hamzaelkaddou@gmail.com"
+   21  git add index.html 
+   22  git status
+   23  git commit -m "Import inicial"
+   24  git status
+   26  git status
+   27  git diff
+   28  git add index.html
+   29  git commit -m "Amb colorins"
+   30  git status
+   31  git log
+   39  git status
+   40  nano .gitignore
+   41  git status
+   42  git add .gitignore
+   43  git commit -m "afegit .gitignore"
+   44  git status
+   45  cat .gitignore
+   47  git status
+   48  git log
+   49  git switch
+   50  git log
+   51  git switch c8632486ec8082814ff0c902b2868691228ab513
+   52  git switch fa3bbf793fda202fab9f54ceca56253afe4aa85c
+   53  git switch d151c27be0af0361845654e6b5b0ddb855f5a846
+   54  git checkout c8632486ec8082814ff0c902b2868691228ab513
+   55  git checkout -
+   64  git status
+   76  gitstatus
+   77  gitstatus README.md
+   78  git add README.md
+   79  git commit -m 'Afegit Hamza'
+   80  gitstatus
+   81  gitstatus README.md
+   82  git push
+   83  git status
+   84  gitstatus README.md
+   85  git status README.md
+   86  git push README.md
+   89  gitstatus README.md
+   90  git push README.md
+   91  git commit -m 'Afegit Hamza'
+   92  git add README.md
+   93  git commit -m 'Afegit Hamza'
+   94  git push README.md
+   96  git add README.md
+   97  git commit -m 'Afegit Hamza'
+   98  git push README.md
+   99  git push
+  108  git clone git@github.com:hamzaelkaddou/projecte-smx2b-2025-2026.git
+  133  git add README.md
+  134  git push
+  135  git commit "He agefit una u en el nom de github"
+  136  git commit "He agefit una u en el nom de github" README.md
+  137  git push
+  140  git commit -m "He agefit una u en el nom de github" README.md
+  141  git push
+  142  git commit -m 'He agefit una u en el nom de github' README.md
+  143  git push
+  144  git push README.md
+  145  git commit -m 'He agefit una u en el nom de github' README.md
+  146  git push README.md
+  147  git commit -m 'He agefit una u en el nom de github' README.md
+  148  git commit -m 'He agefit una u en el nom de github'
+  151  git commit -m 'He agefit una u en el nom de github'
+  154  git status
+  157  git commit -m "He canviat una lletra"
+  158  git status
+  159  nano .gitignore
+  160  git add README.md
+  161  git commit -m "He canviat una lletra"
+  162  git push
+  163  git push README.md
+  164  git@github.com:hamzaelkaddou/hamzaelkaddou.github.io.git
+  165  sudo git@github.com:hamzaelkaddou/hamzaelkaddou.github.io.git
+  166  ssh git@github.com:hamzaelkaddou/hamzaelkaddou.github.io.git
+  167  echo "# hamzaelkaddou.github.io" >> README.md
+  168  git init
+  178  git add README.md
+  182  echo "# hamzaelkaddou.github.io" >> README.md
+  183  git init
+  184  git add README.md
+  185  git commit -m "first commit"
+  186  git branch -M main
+  187  git remote add origin git@github.com:hamzaelkaddou/hamzaelkaddou.github.io.git
+  189  git clone https://github.com/hamzaelkaddou/hamzaelkaddou.github.io
+  190  cd hamzaelkaddou.github.io/
+  191  git add.
+  192  git add .
+  193  git commit -m "Primer Commit"
+  194  git push origin main
+  195  git pull origin main --rebase
+  196  git push origin main
+  197  git push
+  198  git branch
+  199  git push origin master
+  200  git branch -M main
+  201  git push -u origin main
+  202  git remote remove origin
+  203  git remote add origin https://github.com/hamzaelkaddou/hamzaelkaddou.github.io.git
+  204  git push -u origin main
+  205  git pull origin main --rebase
+  206  git push origin main
+  209  git clone https://github.com/hamzaelkaddou/hamzaelkaddou.github.io
+  210  cd hamzaelkaddou.github.io/
+  211  git add .
+  212  git commit -m "Primer commit"
+  213  git push origin main
+  215  cd hamzaelkaddou.github.io
+  218  git push origin main
+  219  cd hamzaelkaddou.github.io/
+  221  git commit -m "He canviat un error"
+  223  git commit -m "He canviat un petit error"
+  224  git add index.html
+  225  git commit -m "He canviat un petit error"
+  226  git push origin main
+  227  git add index.html
+  233  git init
+  234  git add .
+  237  git clone git@github.com:hamzaelkaddou/hamzaelkaddou.github.io.git
+  239  sudo rm -r hamzaelkaddou.github.io
+  241  git clone git@github.com:hamzaelkaddou/hamzaelkaddou.github.io.git
+  242  cd hamzaelkaddou.github.io/
+  243  git checkout -b main
+  245  git add .
+  246  git commit -m "He creat el fitxer index.html"
+  247  git push -u origin main
+  249  git add index.html
+  250  git commit -m "millora del disseny de la pàgina"
+  251  git push origin main
+  256  sudo rm -r hamzaelkaddou.github.io/
+  263  git push origin main
+  266  git clone git@github.com:Inspalamos-SMX2B-2025-2026/01-git-basics-hamzaelkaddou.git
+  267  cd 01-git-basics-hamzaelkaddou/
+  268  git branch -r
+  269  git checkout main
+  274  git add exe1.html README.md
+  275  git commit -m "Exe1 fet"
+  276  git push origin main
+  279  git add exe2.html
+  280  git commit -m "Exe2 fet"
+  281  git push origin main
+  285  git add exe1.html exe2.html README.md
+  286  git commit -m "Bootstrap afegit"
+  287  git push origin main
+  288  git checkout -b web
+  289  git push -u origin web
+  290  git checkout main
+  291  git rm exe1.html exe2.html
+  292  git commit -m "Borrat tot menys README.md"
+  293  git push origin main
+  294  git checkout web
+  295  git push -u origin web
+  297  git checkout main
+  298  history | grep git > git.log
